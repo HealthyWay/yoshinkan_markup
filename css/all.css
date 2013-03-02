@@ -1,0 +1,177 @@
+/* 
+    Document   : all
+    Created on : 13.02.2013, 23:44:46
+    Author     : almir
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body {
+    background: rgb(245,245,245);
+    width: 100%;
+    margin: 0;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    background: white;
+    height: 33px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 4px rgb(209, 172, 172);
+}
+.main {
+
+}
+.menu {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-top: 7px;    
+}
+.menu-item {
+    display: inline-block;
+    border-left: 1px solid rgba(151, 153, 151,0);
+    border-right: 1px solid rgba(151, 153, 151,0);
+    color: rgba(27, 20, 20, 0.88);;
+    margin-left: 30px;
+}
+.last-menu {
+    margin-right: 10px;
+}
+.menu-item:hover {
+    cursor: pointer;
+    display: inline-block;
+    color: rgb(36, 185, 255);
+    border-bottom: 1px dashed rgb(36, 185, 255);
+    -webkit-transition: border-bottom 1s;
+    -moz-transition: border-bottom 1s;
+    transition: border-bottom 1s;
+    -o-transition: border-bottom 1s;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+    -o-transition: color 1s;
+}
+.social-networks {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+}
+.social-text {
+    display: inline-block;
+    width: 175px;
+    text-align: right;
+    vertical-align: top;
+    color: rgb(128, 102, 102);
+    margin-top: 5px;
+}
+.social-network {
+    width: 30px;
+    height: 26px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.social-network:hover {
+    box-shadow: inset 0 0 6px rgba(36, 36, 210, 0.7);
+    cursor: pointer;
+}
+.vk {
+    background-image: url(../img/vk_button.png);
+    background-size: 30px 26px;
+}
+.fb {
+    background-image: url(../img/fb-button.png);
+    background-size: 28px 26px;
+    width: 28px;
+    height: 26px;
+    vertical-align: top;
+}
+.contact-box {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+.phone-box {
+    background-image: url(../img/phone2.png);
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+}
+.contact-phone {
+    color: rgb(36, 255, 106);
+    text-shadow: 
+        -1px -1px 0 rgb(100, 100, 100),
+        1px -1px 0 rgb(100, 100, 100),
+        -1px 1px 0 rgb(100, 100, 100),
+        1px 1px 0 rgb(100, 100, 100);
+    font-size: 28px;
+}
+.subscribe {
+    display: inline-block;
+    float: right;
+    background:  rgb(36, 185, 255);
+    height: 33px;
+    width: 150px;
+}
+.subscribe-link {
+    font-size: 20px;
+    display: block;
+    color: rgb(129, 124, 124);
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    width: 150px;
+    text-align: center;
+    margin-top: 3px;
+}
+.subscribe:hover {
+    cursor: pointer;
+}
+.form {
+    width: 300px;
+    background: rgb(36, 255, 106);
+    float: right;
+}
+.subscribe-form {
+    width: 400px;
+    height: 185px;
+    background: rgb(36, 185, 255);
+    border-radius: 0px 0px 0px 20px;
+    box-shadow: 1px 1px 4px rgb(209, 172, 172);
+    display: none;
+}
+.subscribe-box {
+    display: inline-block;
+    float: right;
+   
+}
+.active-subscribe {
+    background: rgb(36, 185, 255);
+}
+.subscribe-form input {
+    margin: 30px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 9px;
+    background-color: rgba(216, 220, 226, 0.91);
+    opacity: 0.7;
+    border-color: rgb(128, 127, 155);
+    font-size: 20px;
+    width: 335px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.subscribe-form input.submit {
+    margin-bottom: 30px;
+    background: rgb(255, 255, 255);
+    border-color: rgb(233, 233, 233);
+    width: 150px;
+    float: right;
+    color: rgb(129, 124, 124);
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    opacity: 1;
+}
