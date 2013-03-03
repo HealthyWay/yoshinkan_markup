@@ -218,6 +218,15 @@ box-shadow: 0 0 1px black;
     border-radius: 3px;
     box-shadow: inset 0 0 13px rgba(105, 105, 105, 1);
     border: 1px solid rgba(0, 0, 0, 0.66);
+    -webkit-transition: box-shadow 1s;
+    -moz-transition: box-shadow 1s;
+    transition: box-shadow 1s;
+    -o-transition: box-shadow 1s;
+    -webkit-transition: border 1s;
+    -moz-transition: border 1s;
+    transition: border 1s;
+    -o-transition: border 1s;
+    
 }
 .credo {
     font-size: 20px;
