@@ -6,6 +6,19 @@
         Purpose of the stylesheet follows.
 */
 
+@font-face {
+    font-family: Lobster; 
+    src: local("Lobster"), 
+         url(../fonts/Lobster/Lobster.ttf);
+}
+@font-face {
+    font-family: Ledger; 
+    src: local("Ledger"), 
+         url(../fonts/Ledger/Ledger-Regular.ttf);
+}
+a {
+    color: rgb(36, 185, 255);
+}
 root { 
     display: block;
 }
@@ -13,23 +26,22 @@ body {
     background: rgb(245,245,245);
     width: 100%;
     margin: 0;
+    font-family: Lobster; 
 }
 .header {
     position: fixed;
     width: 100%;
     background: white;
-    height: 33px;
+    height: 35px;
     margin-top: 20px;
-    box-shadow: 1px 1px 4px rgb(209, 172, 172);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.64);
 }
 .main {
 
 }
 .menu {
     display: inline-block;
-    padding: 0;
-    margin: 0;
-    margin-top: 7px;    
+    vertical-align: middle;
 }
 .menu-item {
     display: inline-block;
@@ -45,11 +57,6 @@ body {
     cursor: pointer;
     display: inline-block;
     color: rgb(36, 185, 255);
-    border-bottom: 1px dashed rgb(36, 185, 255);
-    -webkit-transition: border-bottom 1s;
-    -moz-transition: border-bottom 1s;
-    transition: border-bottom 1s;
-    -o-transition: border-bottom 1s;
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
     transition: color 1s;
@@ -57,121 +64,165 @@ body {
 }
 .social-networks {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     margin-left: 30px;
-}
-.social-text {
-    display: inline-block;
-    width: 175px;
-    text-align: right;
-    vertical-align: top;
-    color: rgb(128, 102, 102);
-    margin-top: 5px;
 }
 .social-network {
     width: 30px;
-    height: 26px;
-    display: inline-block;
-    margin-left: 5px;
-    margin-top: 3px;
+height: 26px;
+display: inline-block;
+margin-top: 4px;
+box-shadow: 0 0 1px black;
 }
 .social-network:hover {
-    box-shadow: inset 0 0 6px rgba(36, 36, 210, 0.7);
     cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0,0.8);
+    -webkit-transition: box-shadow 1s;
+    -moz-transition: box-shadow 1s;
+    transition: box-shadow 1s;
+    -o-transition: box-shadow 1s;
 }
 .vk {
     background-image: url(../img/vk_button.png);
     background-size: 30px 26px;
 }
 .fb {
-    background-image: url(../img/fb-button.png);
+    background-image: url(../img/fb-icon.png);
     background-size: 28px 26px;
     width: 28px;
     height: 26px;
-    vertical-align: top;
+    margin-left: 10px;
 }
-.contact-box {
-    display: inline-block;
-    float: right;
-    margin-top: 5px;
-}
-.phone-box {
-    background-image: url(../img/phone2.png);
-    background-size: 30px 30px;
-    width: 30px;
-    height: 30px;
-    display: block;
-    float: left;
-}
-.contact-phone {
-    color: rgb(36, 255, 106);
-    text-shadow: 
-        -1px -1px 0 rgb(100, 100, 100),
-        1px -1px 0 rgb(100, 100, 100),
-        -1px 1px 0 rgb(100, 100, 100),
-        1px 1px 0 rgb(100, 100, 100);
-    font-size: 28px;
-}
-.subscribe {
-    display: inline-block;
-    float: right;
-    background:  rgb(36, 185, 255);
-    height: 33px;
+.logo {
+    background-image: url(../img/logo1.gif);
+    background-size: 150px 214px;
     width: 150px;
-}
-.subscribe-link {
-    font-size: 20px;
-    display: block;
-    color: rgb(129, 124, 124);
-    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
-    width: 150px;
-    text-align: center;
-    margin-top: 3px;
-}
-.subscribe:hover {
+    height: 214px;
+    display: inline-block;
     cursor: pointer;
 }
-.form {
-    width: 300px;
-    background: rgb(36, 255, 106);
-    float: right;
+.menu-spacer {
+    height: 60px;
 }
-.subscribe-form {
-    width: 400px;
-    height: 185px;
-    background: rgb(36, 185, 255);
-    border-radius: 0px 0px 0px 20px;
-    box-shadow: 1px 1px 4px rgb(209, 172, 172);
-    display: none;
+.home-infobox {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(36, 185, 255);
 }
-.subscribe-box {
+.sitename {
     display: inline-block;
+    font-family: Ledger;
+    font-size: 30px;
+    vertical-align: top;
+    margin: 25px;
+}
+.contacts {
+    display: inline-block;
+    font-family: Ledger;
+    font-size: 30px;
     float: right;
-   
+    margin: 25px;
 }
-.active-subscribe {
-    background: rgb(36, 185, 255);
+.phone-icon {
+    background-image: url(../img/mobile.png);
+    background-size: 50px 80px;
+    width: 50px;
+    height: 80px;
+    display: inline-block;
 }
-.subscribe-form input {
-    margin: 30px;
-    margin-top: 20px;
-    height: 30px;
-    border-radius: 9px;
-    background-color: rgba(216, 220, 226, 0.91);
-    opacity: 0.7;
-    border-color: rgb(128, 127, 155);
-    font-size: 20px;
-    width: 335px;
+.mail-icon {
+    display: inline-block;
+    background-image: url(../img/mail.png);
+    background-size: 50px 60px;
+    width: 50px;
+    height: 60px;
+    float: left;
+}
+.phone-box {
+    display: inline-block;
+}
+.phone1 {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.phone2 {
+    margin-bottom: 10px;
+}
+.contact-form {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid rgb(36, 185, 255);
+    border-right: 1px solid rgb(36, 185, 255);
+    padding: 25px;
+    padding-top: 0;
     text-align: center;
-    margin-bottom: 0;
 }
-.subscribe-form input.submit {
-    margin-bottom: 30px;
-    background: rgb(255, 255, 255);
-    border-color: rgb(233, 233, 233);
-    width: 150px;
-    float: right;
-    color: rgb(129, 124, 124);
-    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
-    opacity: 1;
+.contact-form input{
+    width: 190px;
+    height: 22px;
+    margin: 10px;
+    border: 1px solid rgb(36, 185, 255);
+    text-align: center;
+}
+.text-input {
+    border-radius: 4px;
+}
+.contact-form-box {
+    background: rgb(36, 185, 255);
+    display: inline-block;
+    border-radius: 3px;
+    font-family: Ledger;
+    font-size: 14px;
+}
+.contact-form-box input{
+    font-family: Ledger;
+    font-size: 14px;
+    box-shadow: inset 0 0 5px rgb(36,185,255);
+    border: 1px solid rgb(20, 141, 197);
+}
+.contact-form-text {
+    width: 440px;
+    margin-bottom: 20px;
+    font-family: Ledger;
+    font-size: 20px;
+    text-align: justify;
+}
+.mail-address {
+    font-family: Ledger;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.info-icon-box {
+    display: inline-block;
+}
+.phones {
+    display: inline-block;
+}
+.mail-box {
+    
+}
+.submit input {
+    background: rgb(78, 75, 75);
+    color: white;
+    border-radius: 3px;
+    box-shadow: inset 0 0 13px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+.submit input:hover {
+    background: rgb(78, 75, 75);
+    color: white;
+    border-radius: 3px;
+    box-shadow: inset 0 0 13px rgba(105, 105, 105, 1);
+    border: 1px solid rgba(0, 0, 0, 0.66);
+}
+.credo {
+    font-size: 20px;
+    font-style: italic;
+    font-family: Lobster; 
+    text-align: justify;
+    margin-top: 20px;
 }
