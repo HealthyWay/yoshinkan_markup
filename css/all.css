@@ -23,7 +23,7 @@ root {
     display: block;
 }
 body {
-    background: rgb(245,245,245);
+    background: #F0F0F0;
     width: 100%;
     margin: 0;
     font-family: Lobster; 
@@ -234,4 +234,20 @@ box-shadow: 0 0 1px black;
     font-family: Lobster; 
     text-align: justify;
     margin-top: 20px;
+}
+.content {
+	margin: 20px;
+}
+.content-text {
+	font-size: 20px;
+    font-family: Ledger; 
+    text-align: justify;
+}
+.content-img {
+	margin: 20px;
+	text-align: center;
+}
+.bottom-infobox {
+	border-top: 1px solid #24B9FF;
+	border-bottom: none;
 }
