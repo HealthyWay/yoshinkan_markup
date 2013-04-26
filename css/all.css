@@ -26,7 +26,8 @@ body {
     background: #F0F0F0;
     width: 100%;
     margin: 0;
-    font-family: Lobster; 
+    font-family: Lobster;
+    overflow: hidden;
 }
 .header {
     position: fixed;
@@ -35,6 +36,7 @@ body {
     height: 35px;
     margin-top: 20px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.64);
+    z-index: 10000;
 }
 .main {
 
@@ -238,10 +240,20 @@ box-shadow: 0 0 1px black;
 .content {
 	margin: 20px;
 }
-.content-text {
-	font-size: 20px;
-    font-family: Ledger; 
+.content-text-block {
+	margin: 20px;
+}
+.content-text-block p{
+    font-size: 20px;
+    font-family: Ledger;
     text-align: justify;
+    text-indent: 1.5em;
+}
+.content div img {
+    float: left;
+    border: 1px solid;
+    box-shadow: 4px 4px 25px;
+    margin-right: 20px;
 }
 .content-img {
 	margin: 20px;
@@ -250,4 +262,7 @@ box-shadow: 0 0 1px black;
 .bottom-infobox {
 	border-top: 1px solid #24B9FF;
 	border-bottom: none;
+}
+.pages {
+    position: absolute;
 }
