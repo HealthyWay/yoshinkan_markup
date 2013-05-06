@@ -1,234 +1,111 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="css/all.css">
-        <link rel="stylesheet" type="text/css" href="css/scrollpath.css">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-        <script type="text/javascript" src="js/prefixfree.min.js"></script>
-        <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.js"></script>
-        <script type="text/javascript" src="js/jquery.scrollpath.js"></script>
-        <script type="text/javascript" src="js/subscribe.js"></script>
-        <script type="text/javascript" src="js/parallax.js"></script>
-    </head>
+<head>
+<meta charset="utf-8">
+<title>Create a Parralax Website using Stellar.js</title>
+<link href='http://fonts.googleapis.com/css?family=Ledger&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <body>
-        <div class="main">
-            <div class="header">
-                <div class="social-networks">
-                    <span class="social-network vk"></span>
-                    <span class="social-network fb"></span>
-                </div>
-                <div class="menu">
-                    <span data-page="home" class="menu-item">домашняя</span>
-                    <span data-page="contactus" class="menu-item">контакты</span>
-                    <span data-page="history-intro" class="menu-item">история айкидо</span>
-                    <span data-page="about-us" class="menu-item last-menu">о нас</span>
-                </div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../aikido_2/scripts/jquery.scrollTo-1.4.3.1-min.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="social-networks">
+                <span class="social-network vk"></span>
+                <span class="social-network fb"></span>
             </div>
-            <div class="pages">
-                <div class="home-infobox contactus">
-                    <div class="menu-spacer">
-                    </div>
-                    <div class="logo">
-                    </div>
-                    <div class="sitename">
-                        <div class="aikido-style">Ёсинкан айкидо</div>
-                        <div class="dojo-name">Hinshitsukan dojo</div>
-                        <div class="credo">Качество превыше всего!</div>
-                    </div>
-                    <div class="contact-form">
-                        <div class="contact-form-text">
-                            Вы можете записать на занятия прямо сейчас, для этого, заполните, пожалуйста, форму:
-                        </div>
-                        <div class="contact-form-box">
-                            <input class="text-input" type="text" placeholder="email">
-                            <input class="text-input" type="text" placeholder="имя">
-                            <div class="submit">
-                                <input type="submit" value="Записаться">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contacts">
-                        <div class="info-icon-box">
-                            <div class="phone-box">
-                                <div class="phone-icon">
-                                </div>
-                                <div class="phones">
-                                    <div class="phone1">
-                                        (099) 0-788-211
-                                    </div>
-                                    <div class="phone2">
-                                        (067) 578-67-50
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mail-box">
-                                <div class="mail-icon">
-                                </div>
-                                <div class="mail-address">
-                                    <a href="mailto:yoshinkan.aikido@gmail.com">yoshinkan.aikido@gmail.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				<div class="content history">
-                    <div class="menu">
-                        <span data-page="history-2" class="menu-item">пути жизни</span>
-                    </div>
-					<div class="history-intro">
-                        <img src="img/history-intro-img.png">
-                        <div class="content-text-block">
-                            <p>
-                                Айкидо можно назвать сравнительно молодым боевым искусством.
-                                Несмотря на широкое распространение данного стиля в Японии
-                                и далеко за ее пределами после второй мировой войны,
-                                до сих пор еще нет достаточно полной информации об истории Айкидо.
-                            </p>
-                        </div>
-                        <div class="content-text-block">
-                            <p>
-                                Издавна боевые искусства (бу дзютцу) были просто методами защиты и нападения,
-                                которые использовали для эффективной самообороны в рукопашной схватке или в схватке
-                                с применением подручных средств.
-                            </p>
-                        </div>
-                        <div class="content-text-block">
-                            <p>
-                                В течение многих лет учителя и мастера различных методов боя, часто в условиях
-                                риска для собственной жизни, разработали и развили те направления, которые сегодня
-                                достигли уровня искусства.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="history-2">
-                        <div class="menu">
-                            <span data-page="history-intro" class="menu-item">вступление</span>
-                            <span data-page="history-3" class="menu-item">дайто рю</span>
-                        </div>
-                        <img src="img/history-2.png" height="500px">
-                        <div class="content-text-block">
-                            <p>
-                                Под влиянием буддийских концепций боевые искусства превратились из простого собрания
-                                приемов в философские «пути» (бу до). Области их применения выросли от простой цели
-                                убить врага до комплекса элементов поведения, связанных с повседневной жизнью. Иными
-                                словами, пути убийства заменились путями жизни.
-                            </p>
-                        </div>
-                        <div class="content-text-block">
-                            <p>
-                                После исчезновения класса самураев боевые «искусства» стали боевыми «путями», и им было
-                                придано более важное значение — как способам повышения моральной устойчивости,
-                                необходимой для создания полноценного общества.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="history-3">
-                        <div class="menu">
-                            <span data-page="history-2" class="menu-item">пути жизни</span>
-                            <span data-page="history-4" class="menu-item">сокаку такеда</span>
-                        </div>
-                        <img src="img/history-3.png" height="500px">
-                        <span>На рисунке изображен Синра Сабуро Минамото но Ёсимицу</span>
-                        <div class="content-text-block">
-                            <p>
-                                Корни Айкидо
-                                Считается что современное Айкидо основано на Дайто-Рю Айки-Дзюцу. Дайторю возникло в
-                                семье императора Сэйва (период правления 858—876 гг. н. э.) и в одиннадцатом веке было
-                                в значительной степени развито одним из потомков императора, Синра Сабуро Минамото но
-                                Ёсимицу.
-                            </p>
-                        </div>
-                        <div class="content-text-block">
-                            <p>
-                                Благодаря серьезному изучению анатомии человека, — он неоднократно посещал поля сражений
-                                и места казни, где осматривал и вскрывал тела погибших воинов и казненных преступников,
-                                — Ёсимицу определил, какие удары, захваты, болевые замки на суставы и удержания были
-                                наиболее эффективны.
-
-                            </p>
-                        </div>
-                        <div class="content-text-block">
-                            <p>
-                                Чтобы постичь тайны айки, или гармонизированной энергии, Ёсимицу часами наблюдал за тем,
-                                как самка паука опутывает жертву своей сетью. Более того, он был талантливым музыкантом,
-                                и, аккомпанируя танцовщикам на своем сё (тип духового инструмента), он интуитивно постиг
-                                природу правильного ритма и плавного перехода от одного движения к другому.
-
-                            </p>
-                        </div>
-                        <div class="content-text-block">
-                            <p>
-                                Ёсимицу объединил все свои познания в воинском искусстве, которому его обучили члены
-                                семьи, а затем передал эту улучшенную и расширенную систему (которая стала известна под
-                                именем «Дайторю», по названию одной из его резиденций) своим сыновьям.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="history-4">
-                        <img src="img/history-4.png" height="500px">
-                        <div class="content-text-block">
-                            <p>
-                                В дальнейшем традиция Дайторю Ёсимицу при полной секретности передавалась последующим
-                                поколениям семьи Такэда. Вплоть до девятнадцатого века — пока гений воинских искусств,
-                                Сокаку Такэда, не начал преподавать Дайторю публично — искусство оставалось совершенно
-                                не известным широкой общественности.
-                            </p>
-                        </div>
-                    </div>
-				</div>
-				<div class="home-infobox bottom-infobox">
-                    <div class="logo">
-                    </div>
-                    <div class="sitename">
-                        <div class="aikido-style">Ёсинкан айкидо</div>
-                        <div class="dojo-name">Hinshitsukan dojo</div>
-                        <div class="credo">Качество превыше всего!</div>
-                    </div>
-                    <div class="contact-form">
-                        <div class="contact-form-text">
-                            Вы можете записать на занятия прямо сейчас, для этого, заполните, пожалуйста, форму:
-                        </div>
-                        <div class="contact-form-box">
-                            <input class="text-input" type="text" placeholder="email">
-                            <input class="text-input" type="text" placeholder="имя">
-                            <div class="submit">
-                                <input type="submit" value="Записаться">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contacts">
-                        <div class="info-icon-box">
-                            <div class="phone-box">
-                                <div class="phone-icon">
-                                </div>
-                                <div class="phones">
-                                    <div class="phone1">
-                                        (099) 0-788-211
-                                    </div>
-                                    <div class="phone2">
-                                        (067) 578-67-50
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mail-box">
-                                <div class="mail-icon">
-                                </div>
-                                <div class="mail-address">
-                                    <a href="mailto:yoshinkan.aikido@gmail.com">yoshinkan.aikido@gmail.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="menu">
+                <span  data-slide="1" class="menu-item">домашняя</span>
+                <span  data-slide="2" class="menu-item">контакты</span>
+                <span  data-slide="3" class="menu-item">история айкидо</span>
+                <span  data-slide="4" class="menu-item last-menu">о нас</span>
             </div>
         </div>
-    </body>
+    </div>
+
+	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+		
+        <div class="content">
+                <div class="logo"></div>
+                <div class="form">
+                    <div class="form-block">
+                        <input type="text" class="input-form" placeholder="введите имя">
+                        <input type="text" class="input-form" placeholder="введите email">
+                        <button type="submit" class="submit-button">Зарегестрироваться</button>
+                    </div>
+                </div>
+        </div>
+        <div class="video-block">
+            <div class="video">
+            </div>
+            <div class="video">
+            </div>
+            <div class="video">
+            </div>
+        </div>
+
+	</div><!--End Slide 1-->
+
+
+
+	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+		<div class="wrapper">
+            <div data-stellar-ratio="0.2" data-stellar-horizontal-offset="40" data-stellar-vertical-offset="200" class="speed-block">
+                speed1
+            </div>
+            <div data-stellar-ratio="1.2" data-stellar-horizontal-offset="40" class="speed-block">
+                speed2
+            </div>
+		</div>
+	</div><!--End Slide 2-->
+
+
+
+
+
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+		<div class="wrapper">
+		
+			<img src="images/slide3/freelance.png" data-stellar-ratio="1.3" data-stellar-vertical-offset="-102"alt="">
+			<div class="text_box" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">Родился 7 июня 1978 года в Луганске.
+Спортом начал заниматься с 3х лет: плавание, 4 года спортивная гимнастика, каратэ, 6 лет практиковал дзюдо.
+с 1993 года практикует Айкидо:
+1998 — 1 дан Айкидо Айкикай
+2000 — 1 дан АйкидоЁсинкан
+2005 — 2 дан Айкидо Йошинкан
+2007 — 3 дан Айкидо Ёсинкан
+03.10.2010 — 4 дан Айкидо
+Проходил стажировку в Японии, Германии, Польше и России у ведущих мастеров Айкидо.
+Преподает Айкидо с 1995 года, возглавляет Луганскую областную федерацию Айкидо Ёсинкай, является сертифицированным инструктором Айкидо Ёсинкан.
+Возглавляет Всеукраинскую Детскую Организацию «Лига Боевых Искусств».    Параллельно с Айкидо практикует и преподает Кэндо и Дзюдо.
+</div>
+			<div class="text_box" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt=""> В настоящее время клуб  располагает двумя комфортабельными додзе, условия которых позволяют принять всех желающих.  На сегодняшний день количество занимающихся составляет восемьдесят человек.  В клубе созданы две возрастные категории занимающихся – дети (6- 14 лет) и взрослые (от 14 и старше, без ограничений).                       
+
+          Профилирующим направлением деятельности клуба является айкидо есинкан. Также в рамках программы обучения проводятся занятия по работе с тренировочным оружием и дзюдо.    
+</div>
+			
+			<img src="" data-stellar-ratio="5" data-stellar-vertical-offset="-10"alt="">
+			<img src="images/slide3/1.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-10"alt="">
+			<img src="images/slide3/2.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-100"alt="">
+            <img src="images/slide3/3.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-150"alt="">
+		</div>
+	</div><!--End Slide 3-->
+	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0">
+		
+
+	</div><!--End Slide 4-->
+
+
+</body>
 </html>

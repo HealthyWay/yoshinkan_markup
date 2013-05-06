@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html,body{
+    font-family: Lobster;
+	width:100%;
+	height:100%;
+    background: url("../img/bg1.jpg") repeat;
+
+}
+
+.navigation{
+	position:fixed;
+	z-index:1;	
+	top:110px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	right:1px;	
+	background:rgb(36, 185, 255);
+}
+
+
+.navigation li{	
+	color:rgba(255,255,255,1);
+	/*text-shadow: 1px 1px 1px black;*/
+	display:block;
+	padding: 0 10px;
+	line-height:30px;
+	margin-bottom:2px;
+	/*font-weight:bold;*/
+	-webkit-transition: all .2s ease-in-out;	
+	text-align:left;
+	width:100px;
+}
+.envatologo{
+position:fixed;
+top:50%;
+left:50%;
+width:446px;
+margin-top:-41px;
+margin-left:-223px;
+z-index:1;
+}
+.slide{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.wrapper{
+	width:960px;
+	height:200px;
+	margin:0 auto;
+	position:relative;
+}
+.slideno{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:100px;
+	font-weight:bold;
+	color:rgba(255,255,255,0.3);
+}
+.button{
+	display:block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	background-color: rgba(0,0,0,0.5);
+	background-image:url(../images/arrow.png);
+}
+.button:hover{
+	background-color:#494949;
+	cursor:pointer;
+}
+
+
+
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1{
+
+	
+}
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+
+}
+#slide2 img:first-child{
+	position:absolute;
+top: 700px;
+left: -150px;
+}
+#slide2 img:nth-child(2){
+	position:absolute;
+	top:300px;
+	left:100px;
+}
+#slide2 img:nth-child(3){
+	position:absolute;
+	top:500px;
+	left:300px;
+}
+#slide2 img:nth-child(4){
+	position:absolute;
+	top:400px;
+	left:300px;
+}
+#slide2 img:nth-child(5){
+	position:absolute;
+	top:600px;
+	right:300px;
+}
+#slide2 img:nth-child(6){
+	position:absolute;
+	top:600px;
+	right:300px;
+}
+#slide2 img:nth-child(7){
+	position:absolute;
+	top:400px;
+	right:100px;
+}
+#slide2 img:nth-child(8){
+	position:absolute;
+	top:100px;
+	right:300px;
+}
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3{
+}
+#slide3 img:first-child{
+	position:absolute;
+	top: 160px;
+	left: 90px;
+}
+#slide3 .text_box:nth-child(2){
+	position:absolute;
+	color:#CCCCCC;
+	padding:5px;
+	background:rgba(102,102,102,0.1);
+	top:100px;
+	left:550px;
+	border-radius:5px;
+	font-size:12px;	
+	width:300px;
+}
+#slide3 .text_box:nth-child(3){
+	position:absolute;
+	padding:5px;
+	background:rgba(204,51,51,0.1);
+	top:410px;
+	left:500px;
+	border-radius:5px;
+	font-size:12px;	
+	width:300px;
+}
+#slide3 img:nth-child(4){
+	position:absolute;
+	top:310px;
+	left:150px;
+}
+#slide3 img:nth-child(5){
+	position:absolute;
+	top:50px;
+	right:1150px;
+}
+#slide3 img:nth-child(6){
+	position:absolute;
+	top:200px;
+	right:1150px;
+}
+#slide3 img:nth-child(7){
+	position:absolute;
+	top:400px;
+	right:1150px;
+}
+/******************************
+ SLIDE 4 
+*******************************/
+
+#slide4{
+
+}
+a {
+    color: rgb(36, 185, 255);
+}
+.header {
+    position: fixed;
+    width: 100%;
+    background: rgb(243, 238, 205);
+    background-size: 13px, 29px, 37px, 53px;
+    height: 35px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.64);
+    z-index: 10000;
+}
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-item {
+    display: inline-block;
+    border-left: 1px solid rgba(151, 153, 151,0);
+    border-right: 1px solid rgba(151, 153, 151,0);
+    color: rgba(27, 20, 20, 0.88);;
+    margin-left: 30px;
+}
+.last-menu {
+    margin-right: 10px;
+}
+.menu-item:hover {
+    cursor: pointer;
+    display: inline-block;
+    color: rgb(36, 185, 255);
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+    -o-transition: color 1s;
+}
+.menu-item.active {
+    color: rgb(36, 185, 255);
+}
+.social-networks {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.social-network {
+    width: 30px;
+    height: 26px;
+    display: inline-block;
+    margin-top: 4px;
+    box-shadow: 0 0 1px black;
+}
+.social-network:hover {
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0,0.8);
+    -webkit-transition: box-shadow 1s;
+    -moz-transition: box-shadow 1s;
+    transition: box-shadow 1s;
+    -o-transition: box-shadow 1s;
+}
+.vk {
+    background-image: url(../img/vk_button.png);
+    background-size: 30px 26px;
+}
+.fb {
+    background-image: url(../img/fb-icon.png);
+    background-size: 28px 26px;
+    width: 28px;
+    height: 26px;
+    margin-left: 10px;
+}
+.logo {
+    background: url("../img/logo_f.png") no-repeat;
+    background-size: 100% 100%;
+    width: 150px;
+    height: 214px;
+    display: inline-block;
+    cursor: pointer;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 40%;
+}
+.menu-spacer {
+    height: 60px;
+}
+.content {
+    padding-top: 30px;
+}
+.form {
+    display: inline-block;
+    width: 30%;
+    border-radius: 6px;
+    margin-right: 20px;
+    background-color: rgba(241, 241, 206, 0.47);
+    margin-top: 90px;
+    float: right;
+    position: relative;
+    max-width: 700px;
+}
+.form-block {
+    margin: 20px 0;
+    font-family: Ledger;
+}
+.input-form {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 3px;
+    background-color: rgba(241, 237, 237, 0.36);
+    padding: 0;
+    border: 1px inset;
+    height: 30px;
+    text-align: center;
+}
+.submit-button {
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(255, 252, 190);
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 3px;
+    border: 1px outset rgb(36, 185, 255);
+    height: 30px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.content-block {
+    background-color: rgba(241, 241, 206, 0.47);
+}
+.speed-block {
+    background-attachment: fixed;
+    position: relative;
+}
+.video-block {
+    background: rgba(0, 0, 0, 0.53);
+    min-height: 275px;
+    border: 4px inset rgba(0, 0, 0, 0.34);
+}
+.video {
+    display: inline-block;
+    width 30%;
+    height: 90%;
+    border: 1px solid;
+    min-width: 20%;
+    max-width: 30%;
+    margin: 10px;
+}
+
