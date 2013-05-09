@@ -59,4 +59,11 @@ jQuery(document).ready(function ($)
         var dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
     });
+
+    $('.social-network.vk').click(
+        function()
+        {
+            window.location.href  = 'http://vk.com/yoshin';
+        }
+    );
 });
