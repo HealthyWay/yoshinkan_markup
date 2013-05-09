@@ -329,15 +329,6 @@ a {
     min-height: 275px;
     border: 4px inset rgba(0, 0, 0, 0.34);
 }
-.video {
-    display: inline-block;
-    width 30%;
-    height: 90%;
-    border: 1px solid;
-    min-width: 20%;
-    max-width: 30%;
-    margin: 10px;
-}
 .slider {
     width: 920px;
     height: 400px;
