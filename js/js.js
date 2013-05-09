@@ -8,7 +8,7 @@ jQuery(document).ready(function ($)
     $(window).stellar();
 
     //Cache some variables
-    var links = $('.menu').find('span');
+    var links = $('.menu span, .logo');
     var dataslide;
     slide = $('.slide');
     button = $('.button');

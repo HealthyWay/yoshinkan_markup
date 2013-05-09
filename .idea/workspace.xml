@@ -4,11 +4,11 @@
     <list default="true" id="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" name="Default" comment="" />
     <ignored path="aikido 3_2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/js.js" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1368078197331" ignored="false" />
+    <file path="/js.js" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1368078531796" ignored="false" />
     <file path="/Dummy.txt" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1367808854173" ignored="false" />
     <file path="$PROJECT_DIR$/css/all.css" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1367809356221" ignored="false" />
     <file path="/style.css" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1367818810712" ignored="false" />
-    <file path="/index.html" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1368077820015" ignored="false" />
+    <file path="/index.html" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1368078458068" ignored="false" />
     <file path="/skin.min.css" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1368077926663" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,19 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="128" selection-start="2721" selection-end="2732" vertical-scroll-proportion="1.5080645">
+            <state line="53" column="49" selection-start="2191" selection-end="2191" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="js.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="28" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0">
+            <state line="12" column="24" selection-start="276" selection-end="276" vertical-scroll-proportion="0.3813084">
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/css/skin.min.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/js.js" />
       </list>
     </option>
@@ -286,16 +286,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="28" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0">
+        <state line="53" column="49" selection-start="2191" selection-end="2191" vertical-scroll-proportion="-7.1923075">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="128" selection-start="2721" selection-end="2732" vertical-scroll-proportion="1.5080645">
+        <state line="12" column="24" selection-start="276" selection-end="276" vertical-scroll-proportion="0.3813084">
           <folding />
         </state>
       </provider>
