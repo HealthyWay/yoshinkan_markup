@@ -1,5 +1,9 @@
 jQuery(document).ready(function ($)
 {
+
+    jQuery(function($){
+        $(".slider").peKenburnsSlider();
+    });
     //initialise Stellar.js
     $(window).stellar();
 

@@ -7,15 +7,29 @@
 <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/skin.min.css">
 
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/js.js"></script>
 <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-<script type="text/javascript" src="js/waypoints.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="../aikido_2/scripts/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
 
+<script type="text/javascript" src="js/jquery.pixelentity.min.js"></script>
+    <script>
+
+        jQuery(function($){
+            $(".peKenBurns").peKenburnsSlider({externalFont:true})
+        })
+        // for google fonts, handle captions sizing only after fonts are loaded
+        jQuery(window).load(function() {
+            $(".peKenBurns").each(function() {
+                $(this).data("peKenburnsSlider").fontsLoaded()
+            })
+        })
+
+    </script>
 </head>
 
 <body>
@@ -46,13 +60,27 @@
                     </div>
                 </div>
         </div>
-        <div class="video-block">
-            <div class="video">
+        <div class="slider peActiveWidget" data-autopause="image" data-thumb="enabled" data-mode="kb" data-controls="hideOnFirst" data-shadow="enabled">
+            <div class="peKb_shadow">
+                <div class="peKb_left"></div>
+                <div class="peKb_middle"></div>
+                <div class="peKb_right"></div>
             </div>
-            <div class="video">
+            <div class="peKb_timer">
+                <div class="peKb_overlay" style=""></div>
+                <canvas width="22" height="22"></canvas>
             </div>
-            <div class="video">
+            <div class="peKb_slides">
+                <div class="peKb_frame" ></div>
+                <!-- lazy loading active -->
+                <div data-delay="5" data-thumb="img/logo_f.png" id="0" class="peKb_active">
+                    <a class="video hd autoplay loop skiptonext" href="http://www.youtube.com/watch?v=lZOnrN4x0Zk" style="">
+                        <img data-src="img/logo_f.png" alt="Banner Image 1" id="0" src="img/logo_f.png" style="display: none;"><canvas width="890" height="320"></canvas>
+                    </a>
+                </div>
             </div>
+            <div class="peKb_spinner"></div>
+            <div class="peKb_videooverlay"></div>
         </div>
 
 	</div><!--End Slide 1-->
@@ -61,12 +89,7 @@
 
 	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
 		<div class="wrapper">
-            <div data-stellar-ratio="0.2" data-stellar-horizontal-offset="40" data-stellar-vertical-offset="200" class="speed-block">
-                speed1
-            </div>
-            <div data-stellar-ratio="1.2" data-stellar-horizontal-offset="40" class="speed-block">
-                speed2
-            </div>
+
 		</div>
 	</div><!--End Slide 2-->
 
