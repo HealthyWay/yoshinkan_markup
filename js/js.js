@@ -1,11 +1,14 @@
 jQuery(document).ready(function ($)
 {
-
+$('.slide').each(function(k,item){
+    $(item).height($(document).height());
+});
     jQuery(function($){
       $(".slider").peKenburnsSlider();
     });
     //initialise Stellar.js
-    $(window).stellar();
+    $(window).stellar({scrollProperty: 'transform', responsive:true, parallaxBackgrounds: true,
+        parallaxElements: true});
 
     //Cache some variables
     var links = $('.menu span, .logo');
@@ -41,9 +44,8 @@ jQuery(document).ready(function ($)
 
     function goToByScroll(dataslide)
     {
-        htmlbody.animate({
-            scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
-        }, 2000, 'easeInOutQuint');
+        var a = $('#slide' + dataslide);
+        window.scrollTo(a.offset().left,a.offset().top);
     }
 
     links.click(function (e)
