@@ -435,4 +435,9 @@ a {
     margin: auto;
     z-index: 2
 }
-
+.slides {
+    height: 100%;
+}
+.slide {
+    height: 100%;
+}
