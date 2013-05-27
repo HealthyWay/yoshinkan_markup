@@ -185,7 +185,7 @@ z-index:1;
  SLIDE 1 
 *******************************/
 #slide1{
-    background-image: url("../images/slide1.jpg");
+    background-image: url("../images/red/g7.jpg");
     	
 }
 
@@ -209,7 +209,7 @@ z-index:1;
  SLIDE 2 
 *******************************/
 #slide2{
-    background-image: url("../images/slide2.jpg");
+    background-image: url("../images/red/g5.jpg");
     background-repeat: no-repeat;
 }
 #slide2 .video-wrapper:nth-child(1){
@@ -274,7 +274,7 @@ left:270px;
 *******************************/
 
 #slide4{
-    background-image: url("../images/slide4.jpg");
+    background-image: url("../images/red/g4.jpg");
     background-repeat: no-repeat;
 
 }
