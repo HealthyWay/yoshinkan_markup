@@ -2,7 +2,7 @@ jQuery(document).ready(function ($)
 {
 
     jQuery(function($){
-        $(".slider").peKenburnsSlider();
+      $(".slider").peKenburnsSlider();
     });
     //initialise Stellar.js
     $(window).stellar();
@@ -66,4 +66,20 @@ jQuery(document).ready(function ($)
             window.location.href  = 'http://vk.com/yoshin';
         }
     );
+        
+        //-------------------------initialize plugin liTextLength----------------------
+        
+        jQuery(function(){            
+                    $('.pr').liTextLength({
+                    length: 235,        //Видимое кол-во символов
+                    afterLength: '...', //Текст после видимого содержания   
+                    fullText:false,      //Добавить ссылку для отображения скрытого текста
+                    moreText: '',  //Текст ссылки до показа скрытого содержания
+                    lessText: ''   //Текст ссылки после показа скрытого содержания
+                    });
+        });
+        
+       //-------------------------end of initialize plugin liTextLength----------------------
 });
+
+

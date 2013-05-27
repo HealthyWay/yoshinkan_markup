@@ -43,9 +43,12 @@ margin-left:-223px;
 z-index:1;
 }
 .slide{
+        background-attachment: fixed; 
+        background-size:cover;
 	width:100%;
 	height:100%;
 	position: relative;
+        box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 }
 .wrapper{
 	width:960px;
@@ -76,179 +79,11 @@ z-index:1;
 	cursor:pointer;
 }
 
+/*----------------------------css for tetxt div------------------------------*/
 
 
-/******************************
- SLIDE 1 
-*******************************/
-#slide1{
 
-	
-}
-/******************************
- SLIDE 2 
-*******************************/
-#slide2{
-
-}
-#slide2 img:first-child{
-position:absolute;
-top: 700px;
-left: -150px;
-}
-#slide2 img:nth-child(2){
-	position:absolute;
-	top:300px;
-	left:100px;
-}
-#slide2 img:nth-child(3){
-	position:absolute;
-	top:500px;
-	left:300px;
-}
-#slide2 img:nth-child(4){
-	position:absolute;
-	top:400px;
-	left:300px;
-}
-#slide2 img:nth-child(5){
-	position:absolute;
-	top:600px;
-	right:300px;
-}
-#slide2 img:nth-child(6){
-	position:absolute;
-	top:600px;
-	right:300px;
-}
-#slide2 img:nth-child(7){
-	position:absolute;
-	top:400px;
-	right:100px;
-}
-#slide2 img:nth-child(8){
-	position:absolute;
-	top:100px;
-	right:300px;
-}
-/******************************
- SLIDE 3 
-*******************************/
-#slide3{
-}
-
-/*------------------------------custom text area----------------------------------------*/
-
-
-#slide3 .text_box h3{
-    font-family: ChinaCyr, serif;
-    text-align: center;
-    font-size: 15px;
-    font-style: italic;
-    padding-bottom: 10px;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.7);
-}
-
-#slide3 .text_box_link{
-    margin: 10px 0px;    
-    border-top: solid 2px rgba(0,0,0,0.3);
-}
-
-#slide3 .text_link{
-    margin-top: 8px;
-    border:solid 2px rgba(179, 102, 9,0.9);
-    padding: 7px;
-    width: 147px;
-    float: right;
-    text-decoration: none;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
-}
-
-#slide3 .text_link a{
-    font-family: ChinaCyr, serif;
-    color: rgba(202, 184, 125, 0.9);
-    font-weight: 500;
-    text-decoration: none;
-}
-
-/*---------------------------------------------------------------------------------------*/
-
-#slide3 img:first-child{
-	position:absolute;
-	top: 160px;
-	left: 90px;
-}
-
-/*------------------------------custom text area----------------------------------------*/
-#slide3 .text_box:nth-child(2){
-	position:absolute;
-	color:#ffffff;
-	padding:20px 20px 10px;
-	background:rgba(0,0,0,0.4);
-        line-height: 1.6;
-	top:100px;
-	left:550px;
-        /*font-family: ChinaCyr, serif;*/
-        font-family: serif;
-        box-shadow: 0 10px 10px rgba(0,0,0,0.7);	
-	font-size:15px;	
-	width:310px;
-}
-
-/*---------------------------------------------------------------------------------------*/
-#slide3 .text_box:nth-child(3){
-	position:absolute;
-	padding:5px;
-	background:rgba(204,51,51,0.1);
-	top:410px;
-	left:500px;
-	border-radius:5px;
-	font-size:12px;	
-	width:300px;
-}
-#slide3 img:nth-child(4){
-	position:absolute;
-	top:310px;
-	left:150px;
-}
-#slide3 img:nth-child(5){
-	position:absolute;
-	top:50px;
-	right:1150px;
-}
-#slide3 img:nth-child(6){
-	position:absolute;
-	top:200px;
-	right:1150px;
-}
-#slide3 img:nth-child(7){
-	position:absolute;
-	top:400px;
-	right:1150px;
-}
-/******************************
- SLIDE 4 
-*******************************/
-
-#slide4{
-
-}
-a {
-    color: rgb(36, 185, 255);
-}
-/*------------------------------custom text area----------------------------------------*/
-
-
-#slide4 .text_box h3{
-    font-family: ChinaCyr, serif;
-    text-align: center;
-    font-size: 15px;
-    font-style: italic;
-    padding-bottom: 10px;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.7);
-}
-
-#slide4 .text_box_title{
+.text_box_title{
     position: relative;    
     top: 25px;
     color: white;
@@ -260,7 +95,7 @@ a {
     text-shadow: 0 2px 2px rgba(0,0,0,0.7);
 }
 
-#slide4 .text_box_content{
+.text_box_content{
     position: relative;
     float: left;    
     top: 30px;    
@@ -275,7 +110,7 @@ a {
     font-size:15px;
 }
 
-#slide4 .text_button{
+.text_button{
     background-image: url("../img/button.png");
     background-repeat: no-repeat;
     position: relative;
@@ -293,12 +128,16 @@ a {
 }
 
 .more{
+   position: absolute;
     text-decoration: none;
-    color:  #666600;
+    color: #666600;
     cursor: pointer;
+    top: 20px;
+    left: 30px;
+    height: 60px;
 }
 
-#slide4 .text_button:hover {
+.text_button:hover {
     background-image: url("../img/button.png");
     background-repeat: no-repeat;
     position: relative;
@@ -310,20 +149,20 @@ a {
     -webkit-filter: grayscale(100%);
 }
 
-#slide4 .text_button_content{
+.text_button_content{
     position: relative;
-    height: 100px;
+    height: 55px;
     text-shadow:0 3px 2px rgba(0,0,0,0.3);
-    top: -139px;
-    left: 28px;
+    top: 3px;
+    left: 0px;
 }
 
-#slide4 .text_box_link{
+.text_box_link{
     margin: 10px 0px;    
     border-top: solid 2px rgba(0,0,0,0.3);
 }
 
-#slide4 .text_link{
+.text_link{
     margin-top: 8px;
     border:solid 2px rgba(179, 102, 9,0.9);
     padding: 7px;
@@ -333,41 +172,122 @@ a {
     box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
 
-#slide4 .text_link a{
+.text_link a{
     font-family: ChinaCyr, serif;
     color: rgba(202, 184, 125, 0.9);
     font-weight: 500;
     text-decoration: none;
 }
 
-/*---------------------------------------------------------------------------------------*/
+/*---------------------------end css for text div---------------------------*/
 
-/*------------------------------custom text area----------------------------------------*/
-#slide4 .text_box:nth-child(1) {
-	position:absolute;
-	color:#ffffff;
-	padding:20px 20px 10px;
-	background:rgba(0,0,0,0.4);
-        line-height: 1.6;
-	top:100px;
-	left:-300px;
-        /*font-family: ChinaCyr, serif;*/
-        font-family: serif;
-        box-shadow: 0 10px 10px rgba(0,0,0,0.7);	
-	font-size:15px;	
-	width:310px;
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1{
+    background-image: url("../images/slide1.jpg");
+    	
 }
 
-#slide4 .text_box:nth-child(2) {
-	position:absolute;
-        /*border: solid 2px white;*/
-	/*padding:20px 20px 10px;*/
+#slide1 .logo:nth-child(1){
+
+    position: absolute;
+    top:-30px;
+    left:250px;
+}
+
+#slide1 .form:nth-child(2){
+
+    position: absolute;
+    top:50px;
+    left:600px;
+    width: 400px;
+    border-radius: 2px;   
+    background-color: rgba(126, 116, 92, 0.47);
+}
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+    background-image: url("../images/slide2.jpg");
+    background-repeat: no-repeat;
+}
+#slide2 .video-wrapper:nth-child(1){
+position:absolute;
+top:190px;
+left:270px; 
+}
+
+#slide2 .text_box:nth-child(2){
+        position:absolute;        
         background-image: url("../img/text-block2.png");
-        background-repeat: no-repeat;
-	/*background:rgba(0,0,0,0.4);*/        
-	top:150px;
-	left:80px;         
-        /*box-shadow: 0 10px 10px rgba(0,0,0,0.7);*/	
+        background-repeat: no-repeat;	  
+	top:-110px;
+	left:-130px;       	
+	width:368px;
+        height: 356px;
+}
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3{
+    background-image: url("../images/slide3.jpg");
+    background-repeat: no-repeat;
+}
+
+#slide3 .text_box:nth-child(1){
+        position:absolute;        
+        background-image: url("../img/text-block2.png");
+        background-repeat: no-repeat;	  
+	top:-185px;
+	left:-150px;       	
+	width:368px;
+        height: 356px;
+	
+}
+
+#slide3 .text_box:nth-child(2){
+        position:absolute;        
+        background-image: url("../img/text-block2.png");
+        background-repeat: no-repeat;	  
+	top:30px;
+	left:250px;       	
+	width:368px;
+        height: 356px;
+	
+}
+
+#slide3 .text_box:nth-child(3){
+        position:absolute;        
+        background-image: url("../img/text-block2.png");
+        background-repeat: no-repeat;	  
+	top:-185px;
+	left:700px;       	
+	width:368px;
+        height: 356px;
+	
+}
+
+
+/******************************
+ SLIDE 4 
+*******************************/
+
+#slide4{
+    background-image: url("../images/slide4.jpg");
+    background-repeat: no-repeat;
+
+}
+a {
+    color: rgb(36, 185, 255);
+}
+
+#slide4 .text_box:nth-child(1) {
+	position:absolute;        
+        background-image: url("../img/text-block2.png");
+        background-repeat: no-repeat;	  
+	top:-185px;
+	left:-150px;       	
 	width:368px;
         height: 356px;
 }
@@ -378,7 +298,8 @@ a {
 .header {
     position: fixed;
     width: 100%;
-    background: rgb(243, 238, 205);
+    /*background: rgb(243, 238, 205);*/
+    background: url("../img/bg_of_header.png") repeat-x;
     background-size: 13px, 29px, 37px, 53px;
     height: 35px;
     margin-top: 20px;
@@ -444,16 +365,12 @@ a {
 }
 .logo {
     background: url("../img/logo_f.png") no-repeat;
-    background-size: 100% 100%;
-    width: 150px;
-    height: 214px;
-    display: inline-block;
+    background-size: 100% 100%;    
     cursor: pointer;
     width: 350px;
     height: 350px;
-    display: inline-block;
-    cursor: pointer;
-    margin-left: 40%;
+    display: inline-block;    
+    /*margin-left: 40%;*/
 }
 .menu-spacer {
     height: 60px;
@@ -461,17 +378,17 @@ a {
 .content {
     padding-top: 30px;
 }
-.form {
-    display: inline-block;
-    width: 30%;
-    border-radius: 6px;
+/*.form {
+    
+    width: 400px;
+    border-radius: 2px;
     margin-right: 20px;
     background-color: rgba(241, 241, 206, 0.47);
     margin-top: 90px;
     float: right;
     position: relative;
     max-width: 700px;
-}
+}*/
 .form-block {
     margin: 20px 0;
     font-family: Ledger;
@@ -481,7 +398,7 @@ a {
     width: 80%;
     margin: 20px auto;
     border-radius: 3px;
-    background-color: rgba(241, 237, 237, 0.36);
+    background-color: rgba(114, 72, 43, 0.36);
     padding: 0;
     border: 1px inset;
     height: 30px;
@@ -490,7 +407,7 @@ a {
 .submit-button {
     display: block;
     margin-top: 20px;
-    background-color: rgb(255, 252, 190);
+    background-color: rgba(219, 168, 92, 0.8);
     width: 50%;
     margin: 20px auto;
     border-radius: 3px;
@@ -513,8 +430,8 @@ a {
     border: 4px inset rgba(0, 0, 0, 0.34);
 }
 .slider {
-    width: 920px;
-    height: 400px;
+    width: 650px;
+    height: 365px;
     margin: auto;
     z-index: 2
 }
