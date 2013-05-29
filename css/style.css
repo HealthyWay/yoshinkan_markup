@@ -138,11 +138,7 @@ html,body{
 .more{
    position: absolute;
     text-decoration: none;
-<<<<<<< HEAD
     color: rgba(0, 0, 0, 0.54);
-=======
-    color: rgb(216, 55, 15);
->>>>>>> 2d7f8bf209e6fd27f0f141fb1a79746a58a799ab
     cursor: pointer;
     top: 20px;
     left: 30px;
@@ -197,11 +193,7 @@ html,body{
  SLIDE 1 
 *******************************/
 #slide1{
-<<<<<<< HEAD
     background-image: url("../images/nagano/slide1.jpg");
-=======
-    background-image: url("../images/red/g7.jpg");
->>>>>>> 2d7f8bf209e6fd27f0f141fb1a79746a58a799ab
     	
 }
 
@@ -225,11 +217,7 @@ html,body{
  SLIDE 2 
 *******************************/
 #slide2{
-<<<<<<< HEAD
     background-image: url("../images/nagano/slide2.jpg");
-=======
-    background-image: url("../images/red/g5.jpg");
->>>>>>> 2d7f8bf209e6fd27f0f141fb1a79746a58a799ab
     background-repeat: no-repeat;
 }
 #slide2 .video-wrapper:nth-child(1){
@@ -294,11 +282,7 @@ left:270px;
 *******************************/
 
 #slide4{
-<<<<<<< HEAD
     background-image: url("../images/nagano/slide4.jpg");
-=======
-    background-image: url("../images/red/g4.jpg");
->>>>>>> 2d7f8bf209e6fd27f0f141fb1a79746a58a799ab
     background-repeat: no-repeat;
 
 }
@@ -473,12 +457,6 @@ a {
 .slides {
     height: 100%;
 }
-<<<<<<< HEAD
 /*.slide {
     height: 100%;
 }*/
-=======
-.slide {
-    height: 100%;
-}
->>>>>>> 2d7f8bf209e6fd27f0f141fb1a79746a58a799ab
