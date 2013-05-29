@@ -4,9 +4,17 @@
 
 html,body{
     font-family: ChinaCyr;
-	width:100%;
-	height:100%;
-    background: url("../img/bg1.jpg") repeat;
+    width:100%;
+    height:100%;
+    background: #135fe9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #135fe9 0%, #a1bff6 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#135fe9), color-stop(100%,#a1bff6)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #135fe9 0%,#a1bff6 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #135fe9 0%,#a1bff6 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #135fe9 0%,#a1bff6 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #135fe9 0%,#a1bff6 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#135fe9', endColorstr='#a1bff6',GradientType=0 ); /* IE6-9 */
+
 
 }
 
@@ -34,13 +42,13 @@ html,body{
 	width:100px;
 }
 .envatologo{
-position:fixed;
-top:50%;
-left:50%;
-width:446px;
-margin-top:-41px;
-margin-left:-223px;
-z-index:1;
+        position:fixed;
+        top:50%;
+        left:50%;
+        width:446px;
+        margin-top:-41px;
+        margin-left:-223px;
+        z-index:1;
 }
 .slide{
         background-attachment: fixed; 
@@ -103,7 +111,7 @@ z-index:1;
     font-size: 15px;
     padding: 0px 33px;    
     padding-bottom: 10px;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.7);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
     color:#ffffff;
     line-height: 1.6;
     font-family: arial;
@@ -130,7 +138,7 @@ z-index:1;
 .more{
    position: absolute;
     text-decoration: none;
-    color: #666600;
+    color: rgba(0, 0, 0, 0.54);
     cursor: pointer;
     top: 20px;
     left: 30px;
@@ -185,7 +193,7 @@ z-index:1;
  SLIDE 1 
 *******************************/
 #slide1{
-    background-image: url("../images/slide1.jpg");
+    background-image: url("../images/nagano/slide1.jpg");
     	
 }
 
@@ -193,28 +201,28 @@ z-index:1;
 
     position: absolute;
     top:-30px;
-    left:250px;
+    left:10%;
 }
 
 #slide1 .form:nth-child(2){
 
     position: absolute;
     top:50px;
-    left:600px;
-    width: 400px;
+    right:-6%;
+    width: 300px;
     border-radius: 2px;   
-    background-color: rgba(126, 116, 92, 0.47);
+    background-color: rgba(161, 191, 246, 0.38)
 }
 /******************************
  SLIDE 2 
 *******************************/
 #slide2{
-    background-image: url("../images/slide2.jpg");
+    background-image: url("../images/nagano/slide2.jpg");
     background-repeat: no-repeat;
 }
 #slide2 .video-wrapper:nth-child(1){
 position:absolute;
-top:190px;
+top:230px;
 left:270px; 
 }
 
@@ -231,7 +239,7 @@ left:270px;
  SLIDE 3 
 *******************************/
 #slide3{
-    background-image: url("../images/slide3.jpg");
+    background-image: url("../images/nagano/slide3.jpg");
     background-repeat: no-repeat;
 }
 
@@ -274,7 +282,7 @@ left:270px;
 *******************************/
 
 #slide4{
-    background-image: url("../images/slide4.jpg");
+    background-image: url("../images/nagano/slide4.jpg");
     background-repeat: no-repeat;
 
 }
@@ -323,14 +331,14 @@ a {
 .menu-item:hover {
     cursor: pointer;
     display: inline-block;
-    color: rgb(36, 185, 255);
+    color: rgb(250, 250, 250);
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
     transition: color 1s;
     -o-transition: color 1s;
 }
 .menu-item.active {
-    color: rgb(36, 185, 255);
+    color: rgb(250, 250, 250);
 }
 .social-networks {
     display: inline-block;
@@ -364,7 +372,7 @@ a {
     margin-left: 10px;
 }
 .logo {
-    background: url("../img/logo_f.png") no-repeat;
+    /*background: url("../img/logo_f.png") no-repeat;*/
     background-size: 100% 100%;    
     cursor: pointer;
     width: 350px;
@@ -398,25 +406,36 @@ a {
     width: 80%;
     margin: 20px auto;
     border-radius: 3px;
-    background-color: rgba(114, 72, 43, 0.36);
+    background-color: rgba(19, 95, 233, 0.36);
     padding: 0;
     border: 1px inset;
     height: 30px;
     text-align: center;
+    color: rgba (250,250,250,1)
 }
 .submit-button {
     display: block;
     margin-top: 20px;
-    background-color: rgba(219, 168, 92, 0.8);
-    width: 50%;
+    background-color: rgba(19, 95, 233, 0.46);
+    width: 62%;
     margin: 20px auto;
-    border-radius: 3px;
-    border: 1px outset rgb(36, 185, 255);
+    border-radius: 2px;
+    border: 1px outset rgb(19, 95, 233);
     height: 30px;
+    font-family: ChinaCyr;
     letter-spacing: 1px;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.75);
+    cursor:pointer;
 }
+.submit-button:hover {
+    color:white;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+    -o-transition: color 1s;
+}
+
 .content-block {
     background-color: rgba(241, 241, 206, 0.47);
 }
@@ -435,4 +454,9 @@ a {
     margin: auto;
     z-index: 2
 }
-
+.slides {
+    height: 100%;
+}
+/*.slide {
+    height: 100%;
+}*/
