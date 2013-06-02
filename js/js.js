@@ -4,8 +4,7 @@ jQuery(document).ready(function ($)
       $(".slider").peKenburnsSlider();
     });
     //initialise Stellar.js
-    $(document).stellar({responsive: true,positionProperty: 'position',parallaxBackgrounds: true,verticalScrolling: true,scrollProperty: 'scroll',
-        parallaxElements: true});
+    $(document).stellar();
 
     //Cache some variables
     var links = $('.menu-item');
@@ -14,7 +13,6 @@ jQuery(document).ready(function ($)
     button = $('.button');
     mywindow = $(window);
     htmlbody = $('html,body');
-
 
 
     function goToByScroll(dataslide)

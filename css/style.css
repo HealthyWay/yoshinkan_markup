@@ -56,7 +56,6 @@ html,body{
 	width:100%;
 	height:100%;
 	position: relative;
-        box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 }
 .wrapper{
 	width:960px;
@@ -411,7 +410,7 @@ a {
     border: 1px inset;
     height: 30px;
     text-align: center;
-    color: rgba (250,250,250,1)
+    color: rgba (250,250,250,1);
 }
 .submit-button {
     display: block;
