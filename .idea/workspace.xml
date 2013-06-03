@@ -4,10 +4,10 @@
     <list default="true" id="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" name="Default" comment="" />
     <ignored path="aikido 3_2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/js.js" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1370286899538" ignored="false" />
+    <file path="/js.js" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1370289717804" ignored="false" />
     <file path="/Dummy.txt" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1367808854173" ignored="false" />
     <file path="$PROJECT_DIR$/css/all.css" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1367809356221" ignored="false" />
-    <file path="/style.css" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1370285741591" ignored="false" />
+    <file path="/style.css" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1370290799574" ignored="false" />
     <file path="/index.html" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1370287942860" ignored="false" />
     <file path="/skin.min.css" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1368077926663" ignored="false" />
     <file path="/text.html" changelist="8eaefe7f-f3c8-4663-b40a-ed276ef5f236" time="1370286031344" ignored="false" />
@@ -44,25 +44,25 @@
       <file leaf-file-name="text.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="371" selection-end="371" vertical-scroll-proportion="-4.3333335">
+            <state line="14" column="18" selection-start="390" selection-end="390" vertical-scroll-proportion="-4.6666665">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="0" selection-start="4661" selection-end="4661" vertical-scroll-proportion="0.75463915">
+            <state line="128" column="9" selection-start="2481" selection-end="2489" vertical-scroll-proportion="-3.22">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="53" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.6153846">
+            <state line="70" column="54" selection-start="2639" selection-end="2639" vertical-scroll-proportion="0.3654224">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="js.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="45" selection-start="111" selection-end="111" vertical-scroll-proportion="11.56">
+            <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="jquery.stellar.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jquery.stellar.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="64" selection-start="0" selection-end="12101" vertical-scroll-proportion="-0.34">
+            <state line="1" column="8184" selection-start="8310" selection-end="8326" vertical-scroll-proportion="-0.34">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -120,11 +120,11 @@
       <list>
         <option value="$PROJECT_DIR$/css/skin.min.css" />
         <option value="$PROJECT_DIR$/video.html" />
-        <option value="$PROJECT_DIR$/text.html" />
-        <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/js/jquery.stellar.min.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/text.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -358,6 +358,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.stellar.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8184" selection-start="8310" selection-end="8326" vertical-scroll-proportion="-0.34">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="6" selection-start="1197" selection-end="1197" vertical-scroll-proportion="-7.6666665">
@@ -367,39 +383,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="9" selection-start="2481" selection-end="2489" vertical-scroll-proportion="-3.22">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="371" selection-end="371" vertical-scroll-proportion="-4.3333335">
+        <state line="14" column="18" selection-start="390" selection-end="390" vertical-scroll-proportion="-4.6666665">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="45" selection-start="111" selection-end="111" vertical-scroll-proportion="11.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.stellar.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="64" selection-start="0" selection-end="12101" vertical-scroll-proportion="-0.34">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="53" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="0" selection-start="4661" selection-end="4661" vertical-scroll-proportion="0.75463915">
+        <state line="70" column="54" selection-start="2639" selection-end="2639" vertical-scroll-proportion="0.3654224">
           <folding />
         </state>
       </provider>

@@ -1,7 +1,6 @@
 jQuery(document).ready(function ($)
 {
-    //initialise Stellar.js
-    $(document).stellar({horizontalOffset: 50});
+    $(document).stellar({horizontalOffset: 50,responsive:true});
 
     //Cache some variables
     var links = $('.menu-item');

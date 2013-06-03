@@ -46,26 +46,36 @@ html,body{
     font-size:15px;
 }
 
-.text_button{
+.text_button {
     background-image: url("../img/button.png");
     background-repeat: no-repeat;
     position: relative;
-    margin: 15px 0px;
-    height: 60px;
+    height: 52px;
+    display: inline-block;
+    top: 195px;
     width: 175px;
-    left: 184px;
-    top: 184px;
-
+    left: 30px;
 }
 
-.more{
-    position: absolute;
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.54);
-    cursor: pointer;
-    top: 20px;
+.text_button:hover {
+    background-image: url("../img/button.png");
+    background-repeat: no-repeat;
+    position: relative;
+    height: 52px;
+    display: inline-block;
+    top: 195px;
+    width: 175px;
     left: 30px;
+    cursor: pointer;
+}
+.more{
+    color: rgba(0, 0, 0, 0.54);
     height: 20px;
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
 .more:hover{
@@ -75,16 +85,7 @@ html,body{
     transition: color 1.5s;
     -o-transition: color 1.5s;
 }
-.text_button:hover {
-    background-image: url("../img/button.png");
-    background-repeat: no-repeat;
-    position: relative;
-    margin: 15px 0px;
-    height: 60px;
-    width: 175px;
-    left: 184px;
-    top: 184px;
-}
+
 
 .text_button_content{
     position: relative;
@@ -118,13 +119,22 @@ html,body{
 
 .slide{
     background-attachment: fixed;
-    background-size:cover;
+    background-size:auto auto;
     position: relative;
-    background-attachment: fixed;
-    background-position: 50% 0;
     background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
+    min-height: 800px;
+    width: 100%;
+    background-position-x: 50% !important;
+}
+.text_box
+{
+    position:absolute;
+    background-image: url("../img/text-block2.png");
+    background-repeat: no-repeat;
+    top:-185px;
+    left:700px;
+    width:368px;
+    height: 356px
 }
 #slide1{
     background-image: url("../images/nagano/slide1.jpg");
