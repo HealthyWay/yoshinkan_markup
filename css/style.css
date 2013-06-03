@@ -30,13 +30,11 @@ html,body{
 
 
 .navigation li{	
-	color:rgba(255,255,255,1);
-	/*text-shadow: 1px 1px 1px black;*/
+	color:rgba(255,255,255,1);	
 	display:block;
 	padding: 0 10px;
 	line-height:30px;
-	margin-bottom:2px;
-	/*font-weight:bold;*/
+	margin-bottom:2px;	
 	-webkit-transition: all .2s ease-in-out;	
 	text-align:left;
 	width:100px;
@@ -56,11 +54,10 @@ html,body{
 	width:100%;
 	height:100%;
 	position: relative;
-        box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 }
 .wrapper{
-	width:960px;
-	height:200px;
+	width:100%;/*960px;*/
+	height:100%;/*200px;*/
 	margin:0 auto;
 	position:relative;
 }
@@ -126,25 +123,27 @@ html,body{
     height: 60px;
     width: 175px;
     left: 184px;
-    top: 184px;
-   
-    -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+    top: 184px;  
+    
 }
 
 .more{
-   position: absolute;
+    position: absolute;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.54);
     cursor: pointer;
     top: 20px;
     left: 30px;
-    height: 60px;
+    height: 20px;
 }
 
+.more:hover{
+   color:white;
+   -webkit-transition: color 1.5s;
+   -moz-transition: color 1.5s;
+   transition: color 1.5s;
+   -o-transition: color 1.5s;
+}
 .text_button:hover {
     background-image: url("../img/button.png");
     background-repeat: no-repeat;
@@ -153,14 +152,13 @@ html,body{
     height: 60px;
     width: 175px;
     left: 184px;
-    top: 184px;  
-    -webkit-filter: grayscale(100%);
+    top: 184px;
 }
 
 .text_button_content{
     position: relative;
     height: 55px;
-    text-shadow:0 3px 2px rgba(0,0,0,0.3);
+    font-weight: 500;
     top: 3px;
     left: 0px;
 }
@@ -197,41 +195,28 @@ html,body{
     	
 }
 
-#slide1 .logo:nth-child(1){
 
-    position: absolute;
-    top:-30px;
-    left:10%;
-}
 
-#slide1 .form:nth-child(2){
 
-    position: absolute;
-    top:50px;
-    right:-6%;
-    width: 300px;
-    border-radius: 2px;   
-    background-color: rgba(161, 191, 246, 0.38)
-}
 /******************************
  SLIDE 2 
 *******************************/
 #slide2{
-    background-image: url("../images/nagano/slide2.jpg");
-    background-repeat: no-repeat;
+        background-image: url("../images/nagano/slide2.jpg");
+        background-repeat: no-repeat;
 }
 #slide2 .video-wrapper:nth-child(1){
-position:absolute;
-top:230px;
-left:270px; 
+        position:absolute;
+        top:150px;
+        left:600px; 
 }
 
 #slide2 .text_box:nth-child(2){
         position:absolute;        
         background-image: url("../img/text-block2.png");
         background-repeat: no-repeat;	  
-	top:-110px;
-	left:-130px;       	
+	top:-30px;
+	left:230px;       	
 	width:368px;
         height: 356px;
 }
@@ -294,10 +279,20 @@ a {
 	position:absolute;        
         background-image: url("../img/text-block2.png");
         background-repeat: no-repeat;	  
-	top:-185px;
-	left:-150px;       	
+	top:-100px;
+	left:50px;       	
 	width:368px;
         height: 356px;
+}
+
+#slide4 .form{
+
+    position: absolute;
+    top:58px;
+    right:3%;
+    width: 300px;
+    border-radius: 2px;   
+    background-color: rgba(161, 191, 246, 0.38);
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -307,8 +302,8 @@ a {
     position: fixed;
     width: 100%;
     /*background: rgb(243, 238, 205);*/
-    background: url("../img/bg_of_header.png") repeat-x;
-    background-size: 13px, 29px, 37px, 53px;
+    background: url("../img/bg_of_header/bg_of_header10.png") repeat-x;
+    background-size: 13px, 29px, 37px, 53px;    
     height: 35px;
     margin-top: 20px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.64);
@@ -322,7 +317,7 @@ a {
     display: inline-block;
     border-left: 1px solid rgba(151, 153, 151,0);
     border-right: 1px solid rgba(151, 153, 151,0);
-    color: rgba(27, 20, 20, 0.88);;
+    color: rgba(27, 20, 20, 0.88);
     margin-left: 30px;
 }
 .last-menu {
@@ -350,7 +345,8 @@ a {
     height: 26px;
     display: inline-block;
     margin-top: 4px;
-    box-shadow: 0 0 1px black;
+    /*box-shadow: 0 0 1px black;*/
+    border-radius: 5px;
 }
 .social-network:hover {
     cursor: pointer;
@@ -359,6 +355,7 @@ a {
     -moz-transition: box-shadow 1s;
     transition: box-shadow 1s;
     -o-transition: box-shadow 1s;
+    border-radius: 5px;
 }
 .vk {
     background-image: url(../img/vk_button.png);
@@ -372,13 +369,25 @@ a {
     margin-left: 10px;
 }
 .logo {
-    /*background: url("../img/logo_f.png") no-repeat;*/
+    background-image: url("../img/logo/logo-lime.png"); 
+    position: fixed;
     background-size: 100% 100%;    
-    cursor: pointer;
-    width: 350px;
-    height: 350px;
-    display: inline-block;    
-    /*margin-left: 40%;*/
+    cursor: pointer;              
+    width:250px;
+    height: 250px;
+    left: 1%;
+    top: 8%;
+    z-index: 10;    
+    border-radius: 5px;  
+    
+}
+
+.logo:hover{    
+    background-image: url("../img/logo/logo-lime-hover2.png");  
+    -webkit-transition: background-image 1.5s;
+    -moz-transition: background-image 1.5s;
+    transition: background-image 1.5s;
+    -o-transition: background-image 1.5s;
 }
 .menu-spacer {
     height: 60px;
@@ -411,7 +420,7 @@ a {
     border: 1px inset;
     height: 30px;
     text-align: center;
-    color: rgba (250,250,250,1)
+    color: rgba (250,250,250,1);
 }
 .submit-button {
     display: block;
@@ -452,11 +461,8 @@ a {
     width: 650px;
     height: 365px;
     margin: auto;
-    z-index: 2
+    z-index: 2;
 }
 .slides {
     height: 100%;
 }
-/*.slide {
-    height: 100%;
-}*/
