@@ -216,13 +216,12 @@ a {
     position: fixed;
     background-size: 100% 100%;
     cursor: pointer;
-    width:250px;
+    width: 250px;
     height: 250px;
-    left: 1%;
-    top: 8%;
+    left: 20px;
+    top: 50px;
     z-index: 10;
     border-radius: 5px;
-
 }
 
 .logo:hover{
