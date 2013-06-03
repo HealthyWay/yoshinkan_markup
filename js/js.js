@@ -1,19 +1,10 @@
 jQuery(document).ready(function ($)
 {
-    jQuery(function($){
-      $(".slider").peKenburnsSlider();
-    });
     //initialise Stellar.js
-    $(document).stellar();
+    $(document).stellar({horizontalOffset: 50});
 
     //Cache some variables
     var links = $('.menu-item');
-    var dataslide;
-    slide = $('.slide');
-    button = $('.button');
-    mywindow = $(window);
-    htmlbody = $('html,body');
-
 
     function goToByScroll(dataslide)
     {
