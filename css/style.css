@@ -119,7 +119,7 @@ background-image: url("../img/button.png");
 
 .slide{
     background-attachment: fixed;
-    background-size:auto auto;
+    background-size:1920px 1080px;
     position: relative;
     background-repeat: no-repeat;
     min-height: 800px;
