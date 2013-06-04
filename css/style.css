@@ -47,14 +47,14 @@ html,body{
 }
 
 .text_button {
-    background-image: url("../img/button.png");
+background-image: url("../img/button.png");
     background-repeat: no-repeat;
     position: relative;
     height: 52px;
     display: inline-block;
     top: 195px;
     width: 175px;
-    left: 30px;
+    left: 50px;
 }
 
 .text_button:hover {
@@ -65,7 +65,7 @@ html,body{
     display: inline-block;
     top: 195px;
     width: 175px;
-    left: 30px;
+    left: 50px;
     cursor: pointer;
 }
 .more{
